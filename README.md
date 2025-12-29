@@ -1,16 +1,64 @@
-# cloudwalk
+# CloudWalk Photo Gallery
 
-A new Flutter project.
+A Flutter application that fetches photos from the Picsum API and displays them in a grid view.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Scrollable grid of photos.
+- Each item shows the author's name.
+- Favorite button to toggle favorite state.
+- Persistence of favorites using `shared_preferences`.
+- State management using `provider`.
+- Unit and Widget tests.
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This project uses `asdf` for version management. Ensure you have the Flutter and Dart plugins installed.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Setup
+
+1.  **Install dependencies**:
+    ```bash
+    asdf install
+    ```
+
+2.  **Get Flutter packages**:
+    ```bash
+    flutter pub get
+    ```
+
+## Development and Build
+
+### Running Tests
+
+To run all tests:
+```bash
+flutter test
+```
+
+### Linting and Formatting
+
+To check for linting issues and format the code:
+```bash
+flutter analyze
+dart format lib test
+```
+
+### Running the App
+
+To run the application:
+```bash
+flutter run
+```
+
+### Building the Application
+
+#### Android
+```bash
+flutter build apk
+```
+
+#### iOS
+```bash
+flutter build ios
+```
