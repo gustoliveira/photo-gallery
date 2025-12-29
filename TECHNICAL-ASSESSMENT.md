@@ -12,7 +12,8 @@ Using an AI assistant to generate code, open up your favorite editor, share your
 - Each grid item should show a thumbnail image and a title (or description).
 - Basic error handling (e.g., show a message if the fetch fails).
 - At least one interactive element (e.g., a ‘Favorite’ button that toggles state for an item).
-- Simple state management for handling favorites (can be a basic setState, Provider, or Riverpod).
+- Favorite pictures must be stored and persisted in a list and accessible by index.
+- Provider for state management for handling favorites and persistent data.
 
 ## Evaluation criteria
 
